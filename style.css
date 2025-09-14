@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(253, 230, 231);
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+    text-align: center;
+    padding: 15px;
+    color: #fff8c3;
+    background: #ff9494;
+    background: linear-gradient(90deg, rgb(255, 148, 148) 0%, rgba(255, 79, 123, 1) 100%);
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    text-align: center;
+    padding: 20px;
+    color: #fff8c3;
+    background-color: #ff9494;
+    border-radius: 15px;
+}
+
+.table {
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.pricelist {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff8c3;
+    background-color: #ff4f7b;
+    border-radius: 15px;
+}

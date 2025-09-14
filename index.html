@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SW #2</title>
+
+    <!-- BOOTSTRAP 5 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- CSS and PYTHON -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+</head>
+<body>
+    <!-- CONTENT -->
+    <div class="container-fluid">
+        <img src="logo.png" class="logo mt-3 mb-3">
+        <h1 id="restaurant_name"></h1>
+        <h6 id="owner_name"></h6>
+        <p id="year_established"></p>
+    </div>
+    
+    <div class="container menu mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Menu Pricelist</h1>
+                <p id="tax_rate"></p>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Products</th>
+                            <th>Price (₱)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="Fondant_Cake"></td>
+                            <td id="popular_item_price"></td>
+                        </tr>
+                        <tr>
+                            <td id="Sweet_Cupcakes"></td>
+                            <td id="menu_price1"></td>
+                        </tr>
+                        <tr>
+                            <td id="Chocolate_Cookies"></td>
+                            <td id="menu_price2"></td>
+                        </tr>
+                        <tr>
+                            <td id="Vanila_Sundae"></td>
+                            <td id="menu_price3"></td>
+                        </tr>
+                        <tr>
+                            <td id="Flavored_Bread"></td>
+                            <td id="menu_price4"></td>
+                        </tr>
+                        <tr>
+                            <td id="Chois_Special"></td>
+                            <td id="menu_price5"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container footer mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <p id="common_allergens"></p>
+                <p id="deliveryservice"></p>
+                <p id="business_hours"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PYSCRIPT -->
+    <script type="py" src="main.py"></script>
+</body>
+</html>
